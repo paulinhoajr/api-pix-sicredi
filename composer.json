@@ -1,6 +1,6 @@
 {
     "name": "paulinhoajr/api-pix-sicredi",
-    "description": "Modulo de pagamentos pix sicredi",
+    "description": "Api de integração com o Pix Cobrança do Banco Sicredi",
     "type": "library",
     "keywords": [
         "library",
