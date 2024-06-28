@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Paulinhoajr\\Api-Pix-Sicredi\\": "src/"
+            "Paulinhoajr\\ApiPixSicredi\\": "src/"
         }
     },
     "authors": [
