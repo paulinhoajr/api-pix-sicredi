@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Crmdesenvolvimentos\PixSicredi\Http;
+namespace Paulinhoajr\ApiPixSicredi\Http;
 
 use Curl\Curl;
-use Crmdesenvolvimentos\PixSicredi\Api;
-use Crmdesenvolvimentos\PixSicredi\Util\Support;
+use Paulinhoajr\ApiPixSicredi\Api;
+use Paulinhoajr\ApiPixSicredi\Util\Support;
 
 
 class Request

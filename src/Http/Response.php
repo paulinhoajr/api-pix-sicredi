@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Crmdesenvolvimentos\PixSicredi\Http;
+namespace Paulinhoajr\ApiPixSicredi\Http;
 
-use Crmdesenvolvimentos\PixSicredi\Util\Support;
+use Paulinhoajr\ApiPixSicredi\Util\Support;
 
 class Response
 {

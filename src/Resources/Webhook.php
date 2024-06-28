@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Crmdesenvolvimentos\PixSicredi\Resources;
+namespace Paulinhoajr\ApiPixSicredi\Resources;
 
 use Paulinhoajr\ApiPixSicredi\Api;
 use Paulinhoajr\ApiPixSicredi\Http\Request;
