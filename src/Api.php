@@ -4,15 +4,15 @@
 namespace Paulinhoajr\ApiPixSicredi;
 
 use Exception;
-use Paulinhoajr\PixSicredi\Util\Support;
-use Paulinhoajr\PixSicredi\Http\Request;
-use Paulinhoajr\PixSicredi\Http\Response;
-use Paulinhoajr\PixSicredi\Resources\Cob;
-use Paulinhoajr\PixSicredi\Resources\Cobv;
-use Paulinhoajr\PixSicredi\Resources\Payload;
-use Paulinhoajr\PixSicredi\Resources\Webhook;
-use Paulinhoajr\PixSicredi\Resources\LoteCobv;
-use Paulinhoajr\PixSicredi\Resources\PixRecebido;
+use Paulinhoajr\ApiPixSicredi\Util\Support;
+use Paulinhoajr\ApiPixSicredi\Http\Request;
+use Paulinhoajr\ApiPixSicredi\Http\Response;
+use Paulinhoajr\ApiPixSicredi\Resources\Cob;
+use Paulinhoajr\ApiPixSicredi\Resources\Cobv;
+use Paulinhoajr\ApiPixSicredi\Resources\Payload;
+use Paulinhoajr\ApiPixSicredi\Resources\Webhook;
+use Paulinhoajr\ApiPixSicredi\Resources\LoteCobv;
+use Paulinhoajr\ApiPixSicredi\Resources\PixRecebido;
 
 
 class Api
