@@ -1,0 +1,22 @@
+{
+    "name": "paulinhoajr/api-pix-sicredi",
+    "description": "Modulo de pagamentos pix sicredi",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Paulinhoajr\\Api-Pix-Sicredi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paulo Rodrigues",
+            "email": "paulinhoajrodrigues@gmail.com"
+        },
+        {
+            "name": "Paulo Junior",
+            "email": "pejotinhas@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
