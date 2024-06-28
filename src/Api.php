@@ -17,7 +17,7 @@ use Paulinhoajr\PixSicredi\Resources\PixRecebido;
 
 class Api
 {
-    protected string $endpoint = 'https://api-pix-h.sicredi.com.br';
+    protected string $endpoint = 'https://api-pix.sicredi.com.br';
     protected string $oauth_path = 'oauth/token';
     protected string $api_path = 'api/v2';
     protected string $client_id;
@@ -28,11 +28,11 @@ class Api
     protected string $certificado_cadeia_completa;
     protected array $scopes = [
         'cob.read', 'cob.write', // criar e consultar cobranças
-        'cobv.read', 'cobv.write', // criar e consultar cobranças com vencimento
-        'lotecobv.read', 'lotecobv.write', // criar e consultar lotes de cobranças
+        //'cobv.read', 'cobv.write', // criar e consultar cobranças com vencimento
+        //'lotecobv.read', 'lotecobv.write', // criar e consultar lotes de cobranças
         'pix.write', 'pix.read', // consultar e criar pix
         'webhook.read', 'webhook.write', // criar e consultar webhook
-        'payloadlocation.read', 'payloadlocation.write' // criar e consultar payload
+        //'payloadlocation.read', 'payloadlocation.write' // criar e consultar payload
     ];
 
     public int $timeout = 5;
