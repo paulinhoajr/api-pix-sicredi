@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Cachesistemas\ApiPixSicredi;
+namespace App\ApiPixSicredi;
 
 
 class PixSicredi
