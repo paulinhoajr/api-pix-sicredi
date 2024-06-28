@@ -2,6 +2,25 @@
     "name": "paulinhoajr/api-pix-sicredi",
     "description": "Modulo de pagamentos pix sicredi",
     "type": "library",
+    "keywords": [
+        "library",
+        "project",
+        "api",
+        "integracao",
+        "pix",
+        "sicredi",
+        "payment",
+        "pagamento",
+        "bacen",
+        "laravel"
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "php-curl-class/php-curl-class": "^9.6",
+        "nesbot/carbon": "^2.62.1"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
