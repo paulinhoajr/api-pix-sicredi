@@ -130,9 +130,9 @@ class PixSicredi
         return $response;
     }
 
-    public function criarCobranca($data)
+    public function criarCobranca($data, $txid=null)
     {
-        $this->fields = json_encode($data, $txid=null);
+        $this->fields = json_encode($data);
         $this->path  =  '/api/v2/cob/'.$txid;
         $this->header =  ['Content-Type: application/json', 'Authorization: Bearer ' . $this->token . ''];
 
