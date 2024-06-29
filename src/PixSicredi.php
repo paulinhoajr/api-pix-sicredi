@@ -21,7 +21,6 @@ class PixSicredi
 
     public function __construct($dados=null, $token=null)
     {
-
         $certificateCER = storage_path('/app/public/certificados/certificado.cer');
         $certificateKEY = storage_path('/app/public/certificados/certificado.key');
 
