@@ -136,7 +136,7 @@ class PixSicredi
         $this->path  =  '/api/v2/cob/'.$txid;
         $this->header =  ['Content-Type: application/json', 'Authorization: Bearer ' . $this->token . ''];
 
-        $response     =  $this->Request("POST");
+        $response     =  $this->Request("PUT");
 
         return $response;
     }
