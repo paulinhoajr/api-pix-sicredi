@@ -27,10 +27,11 @@ class PixSicredi
         if (!file_exists($certificateCER)) {
             throw new \Exception('certificado CER não encontrado em: '. $certificateCER);
         }
-
+        
         if (!file_exists($certificateKEY)) {
             throw new \Exception('certificado CER não encontrado em: '. $certificateKEY);
         }
+        
         /*
                 $initPix  = [
                     "producao" => 1, // 0 | 1
