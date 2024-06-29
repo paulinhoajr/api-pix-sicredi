@@ -14,13 +14,6 @@
         "bacen",
         "laravel"
     ],
-    "require": {
-        "php": "^7.4 || ^8.2 || ^8.3",
-        "ext-json": "*",
-        "ext-mbstring": "*",
-        "php-curl-class/php-curl-class": "^9.6",
-        "nesbot/carbon": "^2.62.1"
-    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
