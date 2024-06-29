@@ -2,18 +2,6 @@
     "name": "paulinhoajr/api-pix-sicredi",
     "description": "Api de integração com o Pix Cobrança do Banco Sicredi",
     "type": "library",
-    "keywords": [
-        "library",
-        "project",
-        "api",
-        "integracao",
-        "pix",
-        "sicredi",
-        "payment",
-        "pagamento",
-        "bacen",
-        "laravel"
-    ],
     "license": "MIT",
     "autoload": {
         "psr-4": {
